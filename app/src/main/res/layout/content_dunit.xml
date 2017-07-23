@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.blogspot.larn4android.addmission.unit.DUnitActivity"
+    tools:showIn="@layout/activity_dunit">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/prattay_ekattur"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/btnpurple"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Unit D "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:paddingTop="20dp"
+        android:text="Don’t be afraid to give up the good to go for the great."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="Enter Roll "/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+
+        android:textStyle="bold"
+        android:maxLength="5"
+        android:textColor="#ffffff"
+        android:id="@+id/etDunitRoll"
+        android:inputType="numberDecimal"
+        android:hint="Roll Number e.g 12345"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#ffffff"
+        android:id="@+id/btn_DunitRoll"
+        android:background="@drawable/btnblue"
+        android:text="show Seat"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:paddingTop="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text=" Powered By Dept.of CSE,MBSTU"/>
+
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:fillViewport="true"
+        android:padding="10dp"
+        tools:context="com.blogspot.larn4android.addmission.DisplayResultActivity"
+        android:background="@drawable/buddhijibi_chattar"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        tools:showIn="@layout/activity_display_result">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:textColor="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Unit"
+        android:textColor="#ffffff"
+        android:background="@drawable/btnpurple"
+        android:gravity="center"
+        android:id="@+id/textViewUnit"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:text="Roll"
+        android:paddingTop="20dp"
+        android:id="@+id/tv_roll"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingTop="20dp"
+        android:text="Center"
+        android:textColor="#ffffff"
+        android:id="@+id/center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Building"
+        android:textColor="#ffffff"
+        android:paddingTop="20dp"
+        android:id="@+id/building"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Room"
+        android:textColor="#ffffff"
+        android:paddingTop="20dp"
+        android:id="@+id/room"/>
+
+    <Button
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="@drawable/btnblue"
+        android:text="View Location"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:paddingTop="50dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text=" Powered By Department of CSE,MBSTU"/>
+
+</LinearLayout>
+    </ScrollView>
